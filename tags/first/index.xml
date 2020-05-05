@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>first on Mohammad Mirzadeh</title>
+    <link>https://mirzadeh.github.io/tags/first/</link>
+    <description>Recent content in first on Mohammad Mirzadeh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Mohammad Mirzadeh</copyright>
+    <lastBuildDate>Mon, 04 May 2020 01:41:40 -0400</lastBuildDate>
+    
+	<atom:link href="https://mirzadeh.github.io/tags/first/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello, world!</title>
+      <link>https://mirzadeh.github.io/posts/2020-05-hello-world/</link>
+      <pubDate>Mon, 04 May 2020 01:41:40 -0400</pubDate>
+      
+      <guid>https://mirzadeh.github.io/posts/2020-05-hello-world/</guid>
+      <description>I finally made it! Couple of days of wrestling with css and html and I can officially claim to be a web guru 🤓. Of course, all of this was with the help of the amazing Hugo static site generator.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About Me on Mohammad Mirzadeh</title>
+    <link>https://mirzadeh.github.io/</link>
+    <description>Recent content in About Me on Mohammad Mirzadeh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Mohammad Mirzadeh</copyright>
+    <lastBuildDate>Fri, 01 May 2020 18:22:01 -0400</lastBuildDate>
+    
+	<atom:link href="https://mirzadeh.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello, world!</title>
+      <link>https://mirzadeh.github.io/posts/2020-05-hello-world/</link>
+      <pubDate>Mon, 04 May 2020 01:41:40 -0400</pubDate>
+      
+      <guid>https://mirzadeh.github.io/posts/2020-05-hello-world/</guid>
+      <description>I finally made it! Couple of days of wrestling with css and html and I can officially claim to be a web guru 🤓. Of course, all of this was with the help of the amazing Hugo static site generator.</description>
+    </item>
+    
+    <item>
+      <title>Physics of Electrostatic Projection Revealed by High-Speed Video Imaging</title>
+      <link>https://mirzadeh.github.io/publications/2019-physics-elecrostatic/</link>
+      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mirzadeh.github.io/publications/2019-physics-elecrostatic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vortices of Electro-osmotic Flow in Heterogeneous Porous Media</title>
+      <link>https://mirzadeh.github.io/publications/2020-vortices-electroosmosis/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mirzadeh.github.io/publications/2020-vortices-electroosmosis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theory of Freezing Point Depression in Charged Porous Media</title>
+      <link>https://mirzadeh.github.io/publications/2019-freezing-media/</link>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mirzadeh.github.io/publications/2019-freezing-media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Active control of viscous fingering using electric fields</title>
+      <link>https://mirzadeh.github.io/publications/2019-active-control/</link>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mirzadeh.github.io/publications/2019-active-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Freezing point depression and freeze-thaw damage by nano-fuidic salt trapping</title>
+      <link>https://mirzadeh.github.io/publications/2019-freezing-point/</link>
+      <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mirzadeh.github.io/publications/2019-freezing-point/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Capillary stress and structural relaxation in moist granular materials</title>
+      <link>https://mirzadeh.github.io/publications/2019-capillary-stress/</link>
+      <pubDate>Sun, 24 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mirzadeh.github.io/publications/2019-capillary-stress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Electrokinetic Control of Viscous Fingering</title>
+      <link>https://mirzadeh.github.io/publications/2017-electrokinetic-control/</link>
+      <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mirzadeh.github.io/publications/2017-electrokinetic-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parallel level-set methods on adaptive tree-based grids</title>
+      <link>https://mirzadeh.github.io/publications/2016-parallel-levelset/</link>
+      <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mirzadeh.github.io/publications/2016-parallel-levelset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhanced charging kinetics of porous electrodes: surface conduction as a short-circuit mechanism</title>
+      <link>https://mirzadeh.github.io/publications/2014-enhanced-charging/</link>
+      <pubDate>Mon, 25 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://mirzadeh.github.io/publications/2014-enhanced-charging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A conservative discretization of the Poisson–Nernst–Planck equations on adaptive Cartesian grids</title>
+      <link>https://mirzadeh.github.io/publications/2014-conservative-discretization/</link>
+      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://mirzadeh.github.io/publications/2014-conservative-discretization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Minimum energy desynchronizing control for coupled neurons</title>
+      <link>https://mirzadeh.github.io/publications/2013-minimum-energy/</link>
+      <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://mirzadeh.github.io/publications/2013-minimum-energy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An adaptive, finite difference solver for the nonlinear Poisson-Boltzmann equation with applications to biomolecular computations</title>
+      <link>https://mirzadeh.github.io/publications/2013-adaptive-finite/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://mirzadeh.github.io/publications/2013-adaptive-finite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Minimum energy spike randomization for neurons</title>
+      <link>https://mirzadeh.github.io/publications/2012-minimum-energy/</link>
+      <pubDate>Wed, 27 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://mirzadeh.github.io/publications/2012-minimum-energy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A second-order discretization of the nonlinear Poisson–Boltzmann equation over irregular geometries using non-graded adaptive Cartesian grids</title>
+      <link>https://mirzadeh.github.io/publications/2011-second-order/</link>
+      <pubDate>Tue, 01 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://mirzadeh.github.io/publications/2011-second-order/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
