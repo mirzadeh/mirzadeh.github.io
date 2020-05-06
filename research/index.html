@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no"/>
 
-    <title>Minimum energy desynchronizing control for coupled neurons | Mohammad Mirzadeh</title>
+    <title>Research | Mohammad Mirzadeh</title>
     
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -199,13 +199,102 @@ if (!doNotTrack) {
         <div id="content" class="content-container">
         
 
-<h1 class="post-title">Minimum energy desynchronizing control for coupled neurons</h1>
-    
-    <time>April 1, 2013</time>
+<h1 class="post-title">Research</h1>
     
     <div>
         <p>
-        
+        <p>My research interests are broad and span different topics in <strong>Computational Science</strong>, <strong>Parallel and High Performance Computing</strong>, <strong>Electrokinetics and Electrohydrodynamics</strong>, and <strong>Soft Matter Physics</strong>. In particular, I enjoy collaborating with researchers with various backgrounds from Physics, Applied Mathematics, and Computer Science. Below is a brief description of my past and present research. For a complete list of my publications please visit <a href="/publications">here</a>.</p>
+<h2 id="parallel-computing-on-quadtree-and-octree-grids">Parallel Computing on Quadtree and Octree Grids</h2>
+<p>Despite continued trend in increasing computational power and cheaper computer memory, many physical and engineering problems are still too computationally expensive to run on a &ldquo;typical&rdquo; computer. Normally, such problems necessitate the use of parallel computing. However, for many multi-scale problems, a simple brute-force approach is not enough, specially in 3D where the &ldquo;curse of dimensionality&rdquo; quickly overwhelms available computational resources.</p>
+<p>Fortunately, for many multi-scale problems, the separation of scales suggests that computational resources may be allocated more efficiently by using grid adaption. Tree-based adaptive grids, i.e. Quadtrees in 2D and Octrees in 3D, offer an elegant and efficient approach for automatic <em>and dynamic</em> grid adaption. A central theme of my research is designing computational methods for solution of PDEs on these grids. I am also interested in combining parallel computing and dynamic grid adaptation. Unlike regular grids, which are trivial to parallelize, the tree data structure in Quadtree and Octree grids must first be linearized and then <em>dynamically</em> partitioned across different processors.</p>
+<table>
+<tr>
+    <img src="/img/research/quadtree.png" style="display: block; width: 100%; margin: 0 auto;" >
+</tr>
+<tr>
+    <td style="border: none; font-size: 0.8em; font-style: italic;" align=left valign=bottom>
+        <b style="font-style: normal;">Top:</b> A Quadtree grid, illustrating grid adaptivity and parallel partitioning across four processors as indicated by colors. <b style="font-style: normal;">Bottom:</b> To achieve load balancing, each processor only performs computation on data that is owned locally (in colors) and ignores the rest of the domain (in white). Note how this approach naturally leads to a balanced computation across all processors despite the non-uniform distribution of grid cells.
+    </td>
+</tr>
+</table>
+<br>
+<p>I have implemented parallel grid-adaptive algorithms using <code>C++</code> and <code>MPI</code> and successfully applied them to several problems including bimolecular calculations, dendritic crystal growth, and viscous fingering. For more details regarding these algorithms and their applications, please refer to the following papers:</p>
+<ul>
+    <li style="font-size: 85% !important;"> <span><b>Mohammad Mirzadeh</b>, Arthur Guittet, Carsten Burstedde, and Frederic Gibou, </span><span style="font-style: italic;">"Parallel level-set methods on adaptive tree-based grids"</span><span>, <a href="https://www.sciencedirect.com/science/article/pii/S002199911630242X"> Journal of Computational Physics 322, 345-364, 2016.</a></span></li><br>
+    <li style="font-size: 85% !important;"> <span><b>Mohammad Mirzadeh</b> and Frederic Gibou, </span><span style="font-style: italic;">"A conservative discretization of the Poisson–Nernst–Planck equations on adaptive Cartesian grids"</span><span>, <a href="https://www.sciencedirect.com/science/article/pii/S002199911400446X"> Journal of Computational Physics 274, 633-653, 2014.</a></span></li><br>
+    <li style="font-size: 85% !important;"> <span><b>Mohammad Mirzadeh</b>, Maxime Theillard, Asdís Helgadöttir, David Boy, Frederic Gibou, </span><span style="font-style: italic;">"An adaptive, finite difference solver for the nonlinear Poisson-Boltzmann equation with applications to biomolecular computations"</span><span>, <a href="https://www.cambridge.org/core/journals/communications-in-computational-physics/article/an-adaptive-finite-difference-solver-for-the-nonlinear-poissonboltzmann-equation-with-applications-to-biomolecular-computations/BFC8FB6F35ECAFA58785BEF1BF1D58E2"> Communications in Computational Physics 13, 150-173, 2013.</a></span></li><br>
+    <li style="font-size: 85% !important;"> <span><b>Mohammad Mirzadeh</b>, Maxime Theillard, and Frederic Gibou, </span><span style="font-style: italic;">"A second-order discretization of the nonlinear Poisson–Boltzmann equation over irregular geometries using non-graded adaptive Cartesian grids"</span><span>, <a href="https://www.sciencedirect.com/science/article/pii/S0021999110006728"> Journal of Computational Physics 230, 2125-2140, 2011.</a></span></li>
+</ul>
+<br>
+<table>
+<tr>
+    <td style="border: none;" align=center>
+        <iframe src="https://player.vimeo.com/video/415046783?loop=1&portrait=0&color=00c086" style="width: 750px; height: 450px; border:0;" allow="autoplay; fullscreen" allowfullscreen> </iframe>
+    </td>
+</tr><br>
+<tr>
+    <td style="border: none;" align=center>
+        <iframe src="https://player.vimeo.com/video/415046777?loop=1&portrait=0&color=00c086" style="width: 750px; height: 455px; border:0;" allow="autoplay; fullscreen" allowfullscreen> </iframe>
+    </td>
+</tr>
+<tr>
+    <td style="border: none; font-size: 0.8em; font-style: italic;" align=left valign=bottom>
+        <b style="font-style: normal;">Top:</b> Dendritic crystal growth from a super-cooled liquid. The color represents the temperature field ahead of the dendrite. <b style="font-style: normal;">Bottom:</b> Dynamic parallel load balancing. Each color represents the domain that is assigned to a unique processor.
+    </td>
+</tr>
+</table>
+<h2 id="ion-transport-and-electrokinetic-mixing-in-random-media">Ion Transport and Electrokinetic Mixing in Random Media</h2>
+<p>Ion transport and fluid flow in random porous media are relevant to many engineering and biological problems. Both during my PhD and also as a postdoc, I have studied the impact of randomness in porous media on electrokinetics and ion transport. Pore connectivity directly impacts transport pathways and can dramatically affect the kinetics of ion transport. More interestingly, when ion transport is coupled to fluid flow, the electro-osmotic pumping generates non-uniform pressure field inside a medium with random pore connectivity and size distribution. This non-uniform pressure field results in formation of fluid vortices that directly scale with the size of heterogeneities in the medium and can cause strong fluid mixing. For more details, please refer to the following papers:</p>
+<ul>
+    <li style="font-size: 85% !important;"> <span><b>Mohammad Mirzadeh</b>, Tingtao Zhou, Mohammad Amin Amooie, Dimitrios Fraggedakis, Todd R. Ferguson, and Martin Z. Bazant, </span><span style="font-style: italic;">"Vortices of Electro-osmotic Flow in Heterogeneous Porous Media"</span><span>, <a href="https://arxiv.org/abs/2003.05974"> arXiv preprint arXiv:2003.05974, 2020.</a></span></li><br>
+    <li style="font-size: 85% !important;"> <span><b>Mohammad Mirzadeh</b>, Frederic Gibou, and Todd M. Squires, </span><span style="font-style: italic;">"Enhanced charging kinetics of porous electrodes: surface conduction as a short-circuit mechanism"</span><span>, <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.113.097701"> Physical Review Letters 113, 097701, 2014.</a></span></li>
+</ul>
+<br>
+<table>
+<tr>
+    <img src="/img/research/ek-vortices.png" align=center>
+</tr>
+<tr>
+    <td style="border: none;" align=center>
+        <iframe src="https://player.vimeo.com/video/415046798?loop=1&portrait=0&color=00c086" style="width: 700px; height: 350px; border:0;" allow="autoplay; fullscreen" allowfullscreen> </iframe>
+    </td>
+</tr>
+<tr>
+    <td style="border: none; font-size: 0.8em; font-style: italic;" align=left valign=bottom>
+        <b style="font-style: normal;">Top:</b> Electrokinetic flows in random porous media generate non-uniform pressure fields which in turn result in formation of vortical structures. The size of these vortices directly correlates with the size of heterogeneity in pore size. <b style="font-style: normal;">Bottom:</b> A rotating electric field generates strong vortices that significantly boost mixing as the electric field strength is increased.
+    </td>
+</tr>
+</table>
+<h2 id="3-electrokinetics-at-soft-and-liquid-interfaces">3. Electrokinetics at Soft and Liquid Interfaces</h2>
+<p>One of the primary areas of my research is the study of electrokinetic phenomena. Put simply, electrokinetics is the study of mutual interactions and coupling between ionic transport and fluid flow in electrolytes. Because many surfaces contain surface groups which dissociate in water, electrokinetic phenomena are relevant to numerous physical, chemical, and biological systems. Over the past years, I have been studying electrokinetics at <em>liquid interfaces</em>, which have received less attention but often lead to fascinating complex phenomena. An interesting, and unexpected, result is that electrokinetic coupling can impact interfacial instability in a Hele-Shaw cell with dissimilar electrolytes.</p>
+<p>It is well-known that viscous fingering occurs when a fluid of lower viscosity displaces a fluid with higher viscosity. However, when an electric field is applied, it is possible to entirely suppress the instability, <em>even for unfavorable viscosity contrast</em>. This remarkable phenomenon is a result of electrokinetic coupling <em>due to non-uniformity in the zeta potential</em>. An ongoing research direction is to extend these ideas to soft interfaces for applications in biological tissues and soft actuators. For more details, please refer to the following papers:</p>
+<ul>
+    <li style="font-size: 85% !important;"> <span>Tao Gao<sup>&#8225;</sup>, <b>Mohammad Mirzadeh</b><sup>&#8225;</sup>, Peng Bai, Kameron M. Conforti, and Martin Z. Bazant, </span><span style="font-style: italic;">"Active control of viscous fingering using electric fields"</span><span>, <a href="https://www.nature.com/articles/s41467-019-11939-7"> Nature Communications 10, 1-8, 2019</a> (&#8225; equal contributions)</span></li><br>
+    <li style="font-size: 85% !important;"> <span><b>Mohammad Mirzadeh</b> and Martin Z. Bazant, </span><span style="font-style: italic;">"Electrokinetic Control of Viscous Fingering"</span><span>, <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.174501"> Physical Review Letters 119, 174501, 2017.</a></span></li>
+</ul>
+<br>
+<!-- Video and Figures -->
+<table style="display: inline-block">
+<tr>
+    <td style="border: none;" valign=top>
+        <iframe src="https://player.vimeo.com/video/415046811?loop=1&portrait=0&color=00c086" style="width: 380px; height: 380px; border:0;" allow="autoplay; fullscreen" allowfullscreen> </iframe>
+    </td>
+    <td style="border: none;">
+        <img src="/img/research/vf-zoom.png" width=300>
+    </td>
+</tr>
+<tr>
+    <td style="border: none;" colspan="2" align=center>
+        <iframe src="https://player.vimeo.com/video/415347660?loop=1&portrait=0&color=00c086" style="width: 600px; height: 450px; border:0;" allow="autoplay; fullscreen" allowfullscreen> </iframe>
+    </td>
+</tr>
+<tr>
+    <td colspan="2" style="border: none; font-size: 0.8em; font-style: italic;" align=left valign=bottom>
+        <b style="font-style: normal;">Top:</b> High-resolution simulation of viscous fingering using parallel level-set method. This level of detail is only possible by simultaneous use of grid adaptivity and parallel computing. <b style="font-style: normal;">Bottom:</b> Experimental evidence of EK control of viscous fingering. Here, electrical current flows through a central wire at the center of the Hele-Shaw cell. By applying sufficient current, and in the correct direction, it is possible to suppress or enhance the instability.
+    </td>
+</tr>
+</table>
+
         </p>
     </div>
     

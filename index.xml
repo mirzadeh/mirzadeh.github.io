@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About Me on Mohammad Mirzadeh</title>
@@ -23,10 +23,10 @@
     
     <item>
       <title>Physics of Electrostatic Projection Revealed by High-Speed Video Imaging</title>
-      <link>https://mirzadeh.github.io/publications/2019-physics-elecrostatic/</link>
+      <link>https://mirzadeh.github.io/publications/2020-physics-elecrostatic/</link>
       <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mirzadeh.github.io/publications/2019-physics-elecrostatic/</guid>
+      <guid>https://mirzadeh.github.io/publications/2020-physics-elecrostatic/</guid>
       <description></description>
     </item>
     
@@ -145,6 +145,15 @@
       
       <guid>https://mirzadeh.github.io/publications/2011-second-order/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://mirzadeh.github.io/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mirzadeh.github.io/research/</guid>
+      <description>My research interests are broad and span different topics in Computational Science, Parallel and High Performance Computing, Electrokinetics and Electrohydrodynamics, and Soft Matter Physics. In particular, I enjoy collaborating with researchers with various backgrounds from Physics, Applied Mathematics, and Computer Science.</description>
     </item>
     
   </channel>
