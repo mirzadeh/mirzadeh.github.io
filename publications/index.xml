@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Mohammad Mirzadeh</copyright>
-    <lastBuildDate>Mon, 30 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mirzadeh.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dielectric breakdown by electric-field induced phase separation</title>
+      <link>https://mirzadeh.github.io/publications/2020-dielectric-breakdown/</link>
+      <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mirzadeh.github.io/publications/2020-dielectric-breakdown/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Physics of Electrostatic Projection Revealed by High-Speed Video Imaging</title>
